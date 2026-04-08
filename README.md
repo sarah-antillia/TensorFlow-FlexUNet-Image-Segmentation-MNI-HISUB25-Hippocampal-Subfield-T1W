@@ -142,11 +142,7 @@ The folder structure of the orginal mri_dataset of MNI-HISUB25 is the following.
 │  └─s25_t2w_hires_defaced_MNI.nii.gz
 ...
 </pre>
-We used a Python script 
-<!--
-<a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a> 
--->
-with 
+We used a Python script with 
 our <a href="https://github.com/sarah-antillia/Image-Distortion-Tool">Image-Distortion-Tool </a> 
  and the following class-color mapping table to generate our augmented dataset with colorized masks
 from <b>s*_hippolabels_t1w_standard_L_MNI.nii.gz, s*_hippolabels_t1w_standard_R_MNI.nii.gz</b> and
